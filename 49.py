@@ -39,5 +39,6 @@ class FourCal:
         self.first = first
         self.second = second
 
-a = FourCal()
-Trackback(most recent call last):
+a = FourCal(4,2)
+print(a.first)
+print(a.second)
