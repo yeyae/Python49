@@ -34,7 +34,7 @@ class FourCal:
     def div(self):
         result = self.first / self.second
         return result      
-    
+
     def __init__(self, first, second):
         self.first = first
         self.second = second
@@ -42,3 +42,5 @@ class FourCal:
 a = FourCal(4,2)
 print(a.first)
 print(a.second)
+a.add()
+a.div()
